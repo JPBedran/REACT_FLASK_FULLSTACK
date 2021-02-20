@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-oidc = "*"
+pymongo = "*"
+flask-cors = "*"
+flask-restful = "*"
+python-dotenv = "*"
+flask-jwt-extended = "*"
+flask-bcrypt = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
